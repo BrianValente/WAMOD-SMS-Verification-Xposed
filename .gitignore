@@ -1,0 +1,8 @@
+smali/*
+build/*
+.idea/*
+.gradle/*
+WAMODXposed.iml
+WAMOD.iml
+local.properties
+*.smali
