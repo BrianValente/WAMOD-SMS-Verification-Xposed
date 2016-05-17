@@ -59,7 +59,7 @@ public class WAMOD implements IXposedHookLoadPackage {
         });
 
 
-        XposedHelpers.findAndHookMethod("com.whatsapp.aya", lpparam.classLoader, "a", Context.class, new XC_MethodHook() {
+        XposedHelpers.findAndHookMethod("com.whatsapp.aqp", lpparam.classLoader, "b", Context.class, new XC_MethodHook() {
             @Override
             protected void afterHookedMethod(MethodHookParam param) throws Throwable {
                 byte[] result = (byte[]) param.getResult();
